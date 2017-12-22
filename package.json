@@ -1,0 +1,36 @@
+{
+  "name": "crypto-sentiment",
+  "engines": {
+    "node": "9.3.0"
+  },
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon --verbose --exec \"babel-node app.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeeshaanl/crypto-sentiment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zeeshaanl/crypto-sentiment/issues"
+  },
+  "homepage": "https://github.com/zeeshaanl/crypto-sentiment#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.14.1",
+    "ntwitter": "^0.5.0",
+    "sentiment": "^4.1.0",
+    "socket.io": "^2.0.4",
+    "twit": "^2.2.9"
+  }
+}
